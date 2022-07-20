@@ -1,0 +1,93 @@
+body{
+  margin: 0;
+  padding: 0;
+   background: linear-gradient(to left,#7808f0,#06bdf5);
+}
+form{
+  background:linear-gradient(to left,mintcream,#f0ffff);
+
+}
+.calci{
+  width: 400px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  transition: 0.25px;
+  text-align: center;
+  border-radius: 30px;
+}
+#display{
+  background: white;
+  border-radius: 30px;
+  width: 250px;
+  font-size: 23px;
+  font-family: serif;
+  font-weight: 200px;
+  height:40px;
+  margin: auto;
+  border: 1.5px solid black;
+  color: black;
+  line-height:10px;
+  
+}
+.btDesign{
+  width:50px;
+  height:50px;
+  padding-top: -1px;
+  border: none;
+  font-family: serif;
+  font-size: 25px;
+  font-weight: 300px;
+  border-radius: 30px;
+  margin: 1.5px;
+  background: linear-gradient(to bottom,gainsboro,gray);
+  line-height: 10px;
+}
+.optDesign{
+  width:50px;
+  height:50px;
+  padding-top: -1px;
+  border: none;
+  font-family: serif;
+  font-size: 25px;
+  font-weight: 300px;
+  border-radius: 30px;
+  margin: 1.5px;
+  transition: 0.35px;
+  cursor: pointer;
+background: linear-gradient(to bottom,gainsboro,gray);
+  line-height: 10px;
+}
+.optDesign:hover{
+  background: #06bdf5;
+}
+
+#zero{
+  width:90px;
+  height:50px;
+  padding-top: -1px;
+  border: none;
+  font-family: serif;
+  font-size: 25px;
+  font-weight: 300px;
+  border-radius: 30px;
+  margin: 1.5px;
+ background: linear-gradient(to bottom,gainsboro,gray);
+  line-height: 10px;
+  
+}
+
+h1{
+  background-color:lavender;
+ color :#585858;
+  text-align: center;
+  font-family: serif;
+  font-size:60px;
+  text-transform: uppercase;
+  text-decoration:underline;
+  text-decoration-style:dotted;
+ text-decoration-color:black;
+}
